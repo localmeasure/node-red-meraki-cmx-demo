@@ -1,0 +1,25 @@
+{
+  "name": "node-red-meraki-cmx-demo",
+  "version": "1.0.0",
+  "description": "A CMX reciever demo",
+  "main": "node-red --settings settings.js flows.json",
+  "dependencies": {
+    "node-red-contrib-meraki-cmx": "^0.2.10",
+    "node-red-dashboard": "^2.1.0",
+    "node-red-node-instagram": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localmeasure/node-red-meraki-cmx-demo.git"
+  },
+  "author": "Benn Eichhorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/localmeasure/node-red-meraki-cmx-demo/issues"
+  },
+  "homepage": "https://github.com/localmeasure/node-red-meraki-cmx-demo#readme"
+}
